@@ -33,10 +33,12 @@ tea time at The Tea House</h1>
     </section>
 
 
-    <section class="f-product mt-30 text-center w-90% max-w-[1400px] mx-auto" >
+    <section class="f-product p-5 mt-30 text-center w-90% max-w-[1400px] mx-auto flex flex-col items-center" >
         <h1 class="text-5xl font-extrabold mb-5">Our Featured Products</h1>
         <p class="text-[#777777] w-full md:w-[60%] mx-auto mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-        <div class="f-product-container flex flex-col md:flex-row flex-wrap mx-auto items-center gap-6 justify-center">
+        <div class="f-product-container grid grid-cols-1 sm:grid-cols-2 gap-6 lg:grid-cols-4  mx-auto">
+
+
             <div class="f-product-card bg-[linear-gradient(to_bottom,#F4F4F4_0%,#F4F4F400_100%)] w-[267px] h-[391px] rounded p-7 text-center ">
                 <img src="./images/tea-1.png" class="mx-auto mb-7">
                 <h3 class="mb-3 text-xl font-extrabold">Lemon Tea</h3>
@@ -57,6 +59,32 @@ tea time at The Tea House</h1>
                 <h3 class="mb-3 text-xl font-extrabold">Lemon Tea</h3>
                 <p class="font-semibold text-[#777777]">Creamer could be replaced by fresh milk</p>
             </div>
+        </div>
+    </section>
+
+
+    <section class="great-tea p-6 flex w-[90%] max-w-[1400px] mx-auto flex-col lg:flex-row justify-between  gap-4">
+        <div class="grid-section grid grid-cols-2 gap-5  grid-rows-3 [grid-template-areas:'first_first-img''second-img_first-img''second-img_last']">
+
+
+            <div class="opacity-10  rounded [grid-area:first] w-[238px] h-full bg-[linear-gradient(to_right,#FF0000_0%,#FF8938_100%)]"></div>
+
+
+            <div class="bg-[linear-gradient(to_right,#D9D9D9_0%,#ffffff00_100%)] [grid-area:last] rounded w-[238px] h-full"></div>
+            <div class="bg-[#e6a5231d] [grid-area:first-img] flex justify-center items-center rounded  my-auto h-[355px] w-[238px]">
+                <img src="./images/fresh-1.png" class="w-[177px] ">
+            </div>
+            <div class="bg-[#58763926] [grid-area:second-img] flex rounded justify-center items-center h-[355px] w-[238px]">
+                <img src="./images/fresh-2.png" class="w-[146px] ">
+            </div>
+        </div>
+        <div class="great-tea-content">
+            <h1>Great Tea, Freshly Presented</h1>
+            <p>The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+            <h2>Unique Taste</h2>
+            <p>A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+            <h2>Premium Quality</h2>
+            <p>Premium Quality that makes tea more elegant and more durable when you use it.</p>
         </div>
     </section>
 </body>
